@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 2, 2016, 5:11:29 PM
+    Author     : Aptech-pc
+*/
+
+*
+{
+    margin:0;
+    padding:0;
+}
+ 
+.gallery
+{
+    width:640px;
+    height:370px;
+    margin:10px auto;
+    background:#999;
+    border:1px solid orange;
+}
+ 
+.slider
+{
+    width:inherit;
+    height:344px;
+    overflow:scroll;
+}
+.slider ul
+{
+    width:10000px;
+    list-style:none;
+    margin-left:0px;
+}
+.slider li
+{
+    float:left;
+}
+ 
+#slider-nav
+{
+    display:none; /* This is important to hide the buttons if jQuery is Not supported. */
+    margin-top: -10em;
+    cursor: pointer;        
+}
